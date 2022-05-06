@@ -1,0 +1,296 @@
+﻿body {
+    font-family: 'Courier New';
+    font-size: 16px;
+    line-height: 1.6;
+    color: black;
+   
+}
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+h1, h2 {
+    margin: 0;
+}
+h1{
+    word-spacing: 3px;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: url("../IMG/city.png") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.intro_inner{
+    text-align:center;
+    width:100%;
+    max-width: 880px;
+    margin: auto;
+}  
+.intro_title{
+    font-size:30px;
+    font-weight: 550;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    color: white; 
+    word-spacing:1px;
+}
+.intro_title::after{
+    content:"";
+    display:block;
+    width: 60px;
+    height: 3px;
+    background-color: white;
+    margin:30px auto 30 auto;
+}
+.intro_suptitle {
+    margin-bottom: auto;
+    font-size: 60px;
+    color: white;
+    font-family: 'Courier New';
+    text-align: center;
+    text-transform: uppercase;
+}
+.header{
+    padding-top: 25px;
+    width: 100%;
+    position: absolute;
+    top:auto;
+    left: auto;
+    right:auto;
+    z-index: 1000;
+}
+.header_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_logo {
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    
+}
+.nav {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.nav_link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    position: relative;
+    color: white;
+    text-decoration: none;
+    transition: color 0.1s linear;
+}
+.nav_link:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+
+    background-color: yellow;
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    left: auto;
+    z-index: 1;
+transition: opacity .1s linear;
+} 
+.nav_link:hover {
+    color: yellow;
+} 
+.nav_link:hover:after{
+    opacity:1;
+}
+.btn{
+    display: inline-block;
+    vertical-align: top;
+    border: 3px solid white;
+    padding: 8px 30px;
+    color:white;
+    text-transform: uppercase;
+    font-size:24px;
+    font-weight:  1000;
+    text-decoration:none;
+    transition: background .1s linear, color .1s linear;
+}
+.btn:hover{
+    background-color: white;
+    color: #212121;
+}
+.intro_text {
+    margin-top: 30px;
+    text-align:center;
+    font-family: 'Courier New';
+    font-size: 20px;
+    line-height: 1.5;
+    color: white;
+}
+
+
+.foto{
+    margin-top: 30px;
+    padding: 30px;
+    word-spacing: 45px;
+    line-height: 20px;
+}
+p {
+    margin: 15px;
+    text-indent: 40px;
+    letter-spacing: 0.2px;
+}
+.knop{
+    display: inline-block;
+    vertical-align: top;
+    border: 3px solid white;
+    padding: 8px 30px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 1000px;
+    text-decoration: none;
+    transition: background .1s linear, color .1s linear;
+}
+.knop:hover{
+    background-color: white;
+    color: black;
+}
+
+
+/*  СЕКЦИЯ 1 */
+
+
+.section_one {
+    padding: 50px 15px;
+    text-align: center;
+    height: calc(100vh - 70px);
+    background-color:#212121;
+}
+
+/*  заголовок */
+
+.section_title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+
+/*  Текст */
+
+.container_text {
+    width: 1300px;
+    height: auto;
+    text-align: left;
+    padding-left: 300px;
+    margin-left: 0;
+}
+
+h8 {
+    margin-left: 80px;
+    font-size: 16px;
+    color: white;
+
+}
+
+
+/*  картинка */
+
+.image_container {
+    margin: 40px;
+}
+.img {
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+
+
+
+
+/*  СЕКЦИЯ 2 */
+
+.section_two {
+    text-align: center;
+    width:100%;
+    height: 400px;
+    background: #00b0ff;
+}
+picture{
+    display: flex;
+justify-content: center;
+}
+
+
+}
+h11,h12,h13{
+    margin: 100px;
+} 
+
+.line{
+    block-size: 200px;
+    max-height: 200px;
+    max-width: 200px;
+}
+
+/*  СЕКЦИЯ 3 */
+
+.section_three {
+    padding: 50px 15px;
+    text-align: center;
+    width:100%;
+    height: 400px;
+    background-color: #212121;
+}
+
+h10 {
+    text-indent: 40px;
+    font-size:18px;
+}
+.container_text_two {
+    text-align: center;
+    height: 100%;
+    width: 1000px;
+    margin-left: 130px;
+    color: white;
+    font-size: 16px;
+    margin-top: 30px;
+}  
+
+
+
+
+
+/*  СЕКЦИЯ 4 */
+
+.section_four {
+    background-color: #212121;
+    width: 100%;
+    height: 600px;
+}
+.cell{
+    padding-top: 10px;
+    padding-left: 30px;
+   
+}
+.cell_img {
+    padding: 5px;
+    margin: 0 5px 0 5px
+}
+
+
+
+  
